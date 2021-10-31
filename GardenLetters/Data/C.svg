@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.570185mm"
+   height="24.958355mm"
+   viewBox="0 0 20.570185 24.958355"
+   version="1.1"
+   id="svg30783"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs30780">
+    <linearGradient
+       id="linearGradient39338">
+      <stop
+         style="stop-color:#ec00b4;stop-opacity:1;"
+         offset="0"
+         id="stop39334" />
+      <stop
+         style="stop-color:#ec00b4;stop-opacity:0;"
+         offset="1"
+         id="stop39336" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39128">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop39126" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39074">
+      <stop
+         style="stop-color:#00d4aa;stop-opacity:1;"
+         offset="0"
+         id="stop39070" />
+      <stop
+         style="stop-color:#00d4aa;stop-opacity:0;"
+         offset="1"
+         id="stop39072" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient39074"
+       id="radialGradient39078"
+       cx="24.472851"
+       cy="22.670107"
+       fx="24.472851"
+       fy="22.670107"
+       r="9.5026264"
+       gradientTransform="matrix(1,0,0,1.2891832,0,-6.5558143)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient39338"
+       id="linearGradient39340"
+       x1="14.433208"
+       y1="22.670107"
+       x2="34.512489"
+       y2="22.670107"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-14.819886,-9.6201077)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.9611px;line-height:1.25;font-family:sans-serif;fill:#00d4aa;fill-opacity:1;stroke:url(#linearGradient39340);stroke-width:1.07403;stroke-opacity:1"
+       x="12.767628"
+       y="34.396305"
+       id="text34287"
+       transform="scale(1.0258298,0.97482056)"><tspan
+         id="tspan34285"
+         style="fill:#00d4aa;fill-opacity:1;stroke:url(#linearGradient39340);stroke-width:1.07403;stroke-opacity:1"
+         x="12.767628"
+         y="34.396305">c</tspan></text>
+  </g>
+</svg>
