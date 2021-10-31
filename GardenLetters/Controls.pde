@@ -1,21 +1,22 @@
-int slideCounter = 0;
+int slideCounter = 1;
+String stage;
 void mousePressed() {
 if (mousePressed) {
   slideCounter ++;
-  if (slideCounter > 3) slideCounter = 0;
+  if (slideCounter > 3) slideCounter = 1;
   
 } 
 
 switch (slideCounter) {
  case 1:
- input = "a";
+ stage = "a";
  break;
  case 2:
- input = "b";
+ stage = "b";
  break;
  case 3:
- input = "c";
+ stage = "c";
  break;
 }
-println("The letter is: " + slideCounter);
+println("The Counter is : " + slideCounter + " and the input is " + stage);
 }
