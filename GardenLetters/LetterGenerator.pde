@@ -1,25 +1,39 @@
 class LetterGenerator {
  
-  string input;
-  PVector postion;
-  PShape letterShape;
+  String input;
+  PVector position;
+  PImage letterShape;
   
   LetterGenerator (String _input, float x, float y) {
    input = _input;
    position = new PVector(x, y);
-   
-   switch(input) {
-    case "a":
-    break;
-    case "b":
-    break;
-    case "c";
-    break;
+      switch(input) {
+      case "a":
+        letterShape = a;
+        break;
+      case "b":
+        letterShape = b;
+        break;
+      case "c":
+        letterShape = c;
+        break;
+    }
+  
    }
-  }
+    
+    void update() {
+      
+    }
   
   void draw() {
-    letterShape.setTexture(grass);
-   shape(letterShape, position.x, position.y); 
+    shapeMode(CENTER);
+  
+   image(letterShape, position.x, position.y); 
+  
   }
-}
+  void run() {
+   update();
+   draw();
+  }
+  }
+  
