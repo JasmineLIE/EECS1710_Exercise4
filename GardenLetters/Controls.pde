@@ -1,17 +1,21 @@
-boolean letterSwap = false;
+int slideCounter = 0;
 void mousePressed() {
-  if (letterSwap) {
-    letterSwap = false;
-    input = "a";
-  } else {
-    letterSwap = true;
-    input = "b";
-
-  }
+if (mousePressed) {
+  slideCounter ++;
+  if (slideCounter > 3) slideCounter = 0;
   
-  if (letterSwap) {
-    println("LetterSwap is " + input);
-  } else {
-    println("LetterSwap is " + input);
-  }
+} 
+
+switch (slideCounter) {
+ case 1:
+ input = "a";
+ break;
+ case 2:
+ input = "b";
+ break;
+ case 3:
+ input = "c";
+ break;
+}
+println("The letter is: " + slideCounter);
 }
