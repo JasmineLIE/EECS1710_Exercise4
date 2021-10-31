@@ -1,5 +1,6 @@
-ArrayList<PVector> letterAPos = new ArrayList<PVector>();
-ArrayList<PVector> letterBPos = new ArrayList<PVector>();
+
+ArrayList<Float> letterAPositionX = new ArrayList<Float>();
+ArrayList<Float> letterAPositionY = new ArrayList<Float>();
 
 class LetterGenerator {
 
@@ -19,11 +20,12 @@ class LetterGenerator {
       switch(ch) {
       case 'a':
         letter.add(new Letter(a, px, py));
-        letterAPos.add(new PVector(px, py));
+      
+
         break;
       case 'b':
         letter.add(new Letter (b, px, py));
-        letterBPos.add(new PVector(px, py));
+    
 
         break;
       }
