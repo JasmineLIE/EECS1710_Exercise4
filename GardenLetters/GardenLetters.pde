@@ -2,7 +2,7 @@ LetterGenerator lg;
 PShape flower;
 PGraphics pgA, pgB;
 PImage grass;
-String input;
+String input = "ab";
 
 float randomAX, randomAY, randomBX, randomBY;
 
@@ -26,7 +26,7 @@ void setup() {
   grass = loadImage("grass.jpg");
   flower = loadShape("flower.svg");
   pgA = createGraphics(width, height, P3D);
-
+  lg = new LetterGenerator(input, 0, height/2);
 
 
   for (int i = 0; i<flowersA.length; i++) {
@@ -38,6 +38,12 @@ void setup() {
 }
 
 void draw() {
+  
+     pgA.beginDraw();
+     pgA.background(0);
+     lg.run();
+     pgA.endDraw();
+    
   for (int i = 0; i<flowersA.length; i++) {
     background (0);
 
